@@ -157,10 +157,5 @@ namespace Exec2_Game1A2B
 
 			return $"{countforposition}A-{countforsame - countforposition}B";
 		}
-		public bool Winning()
-		{
-			if (winningnumber == 4) return true;
-			else return false;
-		}
 	}
 }
